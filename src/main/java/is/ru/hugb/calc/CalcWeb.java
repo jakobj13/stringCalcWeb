@@ -6,7 +6,7 @@ public class CalcWeb {
     public static void main(String[] args) {
         port(getHerokuPort());
         get("/", (req, res) -> {
-            return "No route specified. Try /add/1,2";
+            return "No route specification babycakes. Try /add/1,2";
         });
         get(
             "/add/:input",
